@@ -5,5 +5,5 @@ COPY package.json .
 COPY lighthouserc.json .
 RUN npm install
 
-EXPOSE 9001
+EXPOSE 8080
 CMD [ "npm", "start" ]
