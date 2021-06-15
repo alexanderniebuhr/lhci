@@ -1,0 +1,20 @@
+{
+  "name": "lhci",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lhci server --config=./lighthouserc.json"
+  },
+  "author": {
+    "name": "Alexander Niebuhr"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@lhci/cli": "0.8.0",
+    "@lhci/server": "0.8.0",
+    "mysql2": "2.2.5",
+    "pg": "8.6.0",
+    "pg-hstore": "2.3.4",
+    "sqlite3": "5.0.2"
+  }
+}
