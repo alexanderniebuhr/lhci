@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "lhci server --config=./lighthouserc.json"
+    "start": "lhci server --storage.storageMethod=sql --storage.sqlDialect=sqlite --storage.sqlDatabasePath=/data/lhci.db --port=9001"
   },
   "author": {
     "name": "Alexander Niebuhr"
