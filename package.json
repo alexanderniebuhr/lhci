@@ -10,8 +10,8 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@lhci/cli": "0.8.0",
-    "@lhci/server": "0.8.0",
+    "@lhci/cli": "0.10.0",
+    "@lhci/server": "0.10.0",
     "mysql2": "2.2.5",
     "pg": "8.6.0",
     "pg-hstore": "2.3.4",
